@@ -8,11 +8,11 @@ namespace BlockSchemeHW
         public static void Main(string[] args)
         {
             List<User> users = new List<User>();
-            users.Add(new User("Tom123", "Tom", true));
-            users.Add(new User("MiKe_005", "Mike", false));
-            users.Add(new User("Alex__O", "Alex", false));
-            users.Add(new User("AgataSnow", "Agata", true));
-            users.Add(new User("Mr_smith", "Nick", true));
+            users.Add(new User("DanMan", "Daniil", true));
+            users.Add(new User("RomaKaif", "Roman", false));
+            users.Add(new User("SanyaTop", "Alex", false));
+            users.Add(new User("MartaBeaauty", "Marta", true));
+            users.Add(new User("Roger123", "Roger", true));
 
             foreach (User user in users)
             {
